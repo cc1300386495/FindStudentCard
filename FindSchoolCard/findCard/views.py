@@ -35,5 +35,6 @@ def result(request):
                 student_id=find_id, location=location, find_day=find_day)
             new_find.save()
         except:
-            print("用于测试git")
+            # 测试
+            pass
     return HttpResponse("提交成功，感谢你的帮助哦~")
